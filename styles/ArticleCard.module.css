@@ -1,0 +1,67 @@
+.article-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-image {
+    width: 100%;
+    /*height: 150px;*/
+    object-fit: cover;
+  }
+  
+  .article-content {
+    padding: 15px;
+  }
+  
+  .article-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #0070f3;
+  }
+  
+  .article-content p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .article-content small {
+    display: block;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .article-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background: #ffc107;
+    color: black;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background: #ffdf37;
+  }
+  
+  .delete-btn:hover {
+    background: #c82333;
+  }
+  

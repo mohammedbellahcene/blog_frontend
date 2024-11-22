@@ -1,0 +1,79 @@
+.header {
+  background: #0070f3;
+  padding: 10px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo1{
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.logo span {
+  color: #ffcb05;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-btn {
+  background-color: white;
+  color: #0070f3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background-color: #005bb5;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #ffcb05;
+  color: black;
+}
+
+.signup-btn:hover {
+  background-color: #ffc107;
+}
